@@ -1,0 +1,45 @@
+.navbar{
+    display: flex;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    color: rgb(0, 78, 134);
+    font-family: 'Lato';
+    background-color: white;
+    position: fixed;
+    z-index:9999;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.options{
+    text-align: right;
+}
+
+.navbar ul{
+    margin-left: 210%;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar li{
+    padding: 4px;
+    align-items: center;
+    height: 2%;
+}
+
+.navbar a{
+    color: inherit;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .25rem;
+}
+
+.navbar li:hover{
+    background-color: rgb(57, 109, 145);
+    color:white;
+    border-radius: 10px;
+}

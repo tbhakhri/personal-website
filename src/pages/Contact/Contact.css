@@ -1,0 +1,36 @@
+.contactholder{
+    margin-top: 200px;
+    font-family: 'Lato';
+    
+}
+
+.contact-heading{
+    padding-top: 60px;  
+    text-align: center;
+    font-size: 36px;
+    color: rgb(0, 78, 134);
+}
+
+.contacts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.email{
+    height: 100px;
+    margin-right: 200px;
+}
+.linkedin{
+    height: 100px;
+    margin-right: 200px;
+}
+
+.github{
+    height: 100px;
+}
+
+.contact-logo{
+    height: 100px;
+}
